@@ -1,0 +1,34 @@
+.lightMode {
+    background: #f5f5f5;
+    color: #000000;
+}
+
+.lightMode a {
+    color: #000000;
+}
+
+.lightMode h2 {
+    color: #000000;
+}
+
+.lightMode main .container .profile .technologies .advanced,
+.lightMode main .container .profile .technologies .intermediate,
+.lightMode main .container .profile .technologies .beginner,
+.lightMode main .container .profile .technologies .interest {
+    border: 2px solid  #000000;
+}
+
+.lightMode main .container .profile .technologies h3 {
+    color: var(--blue);
+}
+
+.lightMode header .navbar .buttonLight {
+    width: 2%;
+    color: #000000;
+    font-size: 2rem;
+}
+
+.lightMode footer .contacts img {
+    background: #000000;
+    border-radius: 10%;
+}

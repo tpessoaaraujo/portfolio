@@ -1,6 +1,10 @@
+h2 {
+    margin-bottom: 3rem;
+}
+
 header {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 60% 40%;
 
     padding-bottom: 3rem;
 }
@@ -11,51 +15,109 @@ header .navbar  {
     justify-content: space-around;
 }
 
-main {
+header .navbar button {
+    width: 17rem;
+    height: 4rem;
+
+    font-family: var(--font-default);
+    font-size: 1.5rem;
+
+    background:  #4169E1;
+    color: #FFFF;
+
+    border-radius: 8rem;
+
+    transition: filter .2s;
+    cursor: pointer;
+}
+
+header .navbar button:hover {
+    filter: brightness(1.2);
+}
+
+header .navbar .buttonLight {
+    width: 2%;
+    background: transparent;
+    color: white;
+}
+
+header .navbar .fa-sun {
+    font-size: 2rem;
+}
+
+main .container {
     display: flex;
 }
 
-main .avatar img {
-    width: 50rem;
+main .container .avatar img {
+    width: 40rem;
     border-radius: 50%;
 }
 
-main .profile {
+main .container .profile {
     display: flex;
     flex-direction: column;
-
 }
 
-main .profile .about {
+main .container .profile .about {
     padding-left: 3rem;
     padding-bottom: 3rem;
 }
 
-main .profile .contacts {
-    display: flex;
-    flex-direction: column;
-
+main .container .profile #tech {
     padding-left: 3rem;
 }
 
-main .profile .contacts img {
-    margin-right: 1rem;
-}
-
-main .profile .contacts .whatsapp,
-main .profile .contacts .linkedin,
-main .profile .contacts .github {
+main .container .profile .technologies {
     display: flex;
     align-items: center;
-    padding-top: 2rem;
-
+    justify-content: space-evenly;
 }
 
-footer .projects {
+main .container .profile .technologies .advanced,
+main .container .profile .technologies .intermediate,
+main .container .profile .technologies .beginner,
+main .container .profile .technologies .interest {
+    text-align: center;
+
+    border-radius: 1rem;
+    border: 2px solid  white;
+
+    padding: 2rem;
+}
+
+main .container .profile .technologies .fa-brands {
+    font-size: 6rem;
+    padding: 1rem;
+}
+
+main .projects {
     display: flex;
     flex-direction: column;
 
     padding: 3rem 0rem 3rem 0rem;
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contacts img {
+    margin-right: 1rem;
+}
+
+footer .contacts h2 {
+    margin-bottom: 1rem;
+}
+
+footer .contacts .whatsapp,
+footer .contacts .linkedin,
+footer .contacts .github {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+
 }
 
 footer .dev {

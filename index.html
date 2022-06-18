@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <!-- Metadados do site -->
     <meta charset="UTF-8">
@@ -12,11 +11,11 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/light-mode.css">
     <script src="javascript/main.js" defer></script>
     <!-- Título do site -->
     <title>Portfólio - Thiago Pessoa Araujo</title>
 </head>
-
 <body>
     <header>
         <a href="#">
@@ -24,53 +23,87 @@
         </a>
         <nav class="navbar">
             <a href="#about">Sobre</a>
-            <a href="#projects">Contatos</a>
-            <a href="#contacts">Projetos</a>
+            <a href="#technologies">Tecnologias</a>
+            <a href="#contacts">Contatos</a>
+            <a href="#projects">Projetos</a>
+            <a href="https://drive.google.com/file/d/1-x5EZrNwfnDaE6YTXRM0wp20AhTG71Re/view?usp=sharing" target="_blank"><button>Currículo completo</button></a>   
+            <button class="buttonLight" onclick="onLightMode()"><i class="iconMode fa-solid fa-sun"></i></button>
         </nav>
     </header>
     <main>
-        <div class="avatar">
-            <img src="assets/images/thiago-pessoa-araujo.jpg" alt="Foto do desenvolvedor Thiago" loading="lazy">
-        </div>
-        <div class="profile">
-            <div class="about">
-                <a name="about">
-                    <h2>Sobre</h2>
-                </a>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ex tenetur qui nisi minima! Omnis deleniti temporibus, fuga eum hic architecto facere ipsa eaque modi, veritatis exercitationem pariatur illo soluta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum commodi quaerat praesentium laboriosam deserunt itaque nesciunt, sit rem vitae, dolorem consequuntur id quia ullam nulla, ipsa ut voluptate! Atque, natus.</p>
+        <div class="container">
+            <div class="avatar">
+                <img src="assets/images/thiago-pessoa-araujo.jpg" alt="Foto do desenvolvedor Thiago" loading="lazy">
             </div>
-            <div class="contacts">
-                <a name="contacts">
-                    <h2>Contatos</h2>
+            <div class="profile">
+                <div class="about">
+                    <a name="about">
+                        <h2>Sobre</h2>
+                    </a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ex tenetur qui nisi minima! Omnis deleniti temporibus, fuga eum hic architecto facere ipsa eaque modi, veritatis exercitationem pariatur illo soluta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum commodi quaerat praesentium laboriosam deserunt itaque nesciunt, sit rem vitae, dolorem consequuntur id quia ullam nulla, ipsa ut voluptate! Atque, natus.</p>
+                </div>
+                <a name="technologies" id="tech">
+                    <h2>Tecnologias</h2>
                 </a>
-                <div class="github">
-                    <img src="assets/images/github.svg" alt="Logo do github" loading="lazy">
-                    <a href="https://github.com/tpessoaaraujo" target="_blank">Github</a>
-                </div>
-                <div class="linkedin">
-                    <img src="assets/images/linkedin.svg" alt="Logo do linkedin" loading="lazy">
-                    <a href="https://www.linkedin.com/in/thiagopessoaaraujo/" target="_blank">Linkedin</a>
-                </div>
-                <div class="whatsapp">
-                    <img src="assets/images/whatsapp.svg" alt="Logo do whatsapp" loading="lazy">
-                    <a href="https://wa.me/5514982306909/" target="_blank">(14) 98230-6909</a>
+                <div class="technologies">
+                    <div class="advanced">
+                        <h3>Avançado</h3>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="intermediate">
+                        <h3>Intermediário</h3>
+                        <i class="fa-brands fa-js-square"></i>
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="beginner">
+                        <h3>Iniciante</h3>
+                        <i class="fa-brands fa-react"></i>
+                        <i class="fa-brands fa-node"></i>
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="interest">
+                        <h3>Interesse</h3>
+                        <i class="fa-brands fa-vuejs"></i>
+                        <i class="fa-brands fa-angular"></i>
+                        <i class="fa-brands fa-python"></i>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-    <footer>
         <div class="projects">
             <a name="projects">
                 <h2>Projetos</h2>
             </a>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis beatae quod reiciendis reprehenderit nesciunt eveniet ea, atque quidem porro placeat numquam, libero cumque dicta eaque culpa corporis laudantium sed?</p>
         </div>
+    </main>
+    <footer>
+        <div class="contacts">
+            <a name="contacts">
+                <h2>Contatos</h2>
+            </a>
+            <div class="github">
+                <img src="assets/images/github.svg" alt="Logo do github" loading="lazy">
+                <a href="https://github.com/tpessoaaraujo" target="_blank">Github</a>
+            </div>
+            <div class="linkedin">
+                <img src="assets/images/linkedin.svg" alt="Logo do linkedin" loading="lazy">
+                <a href="https://www.linkedin.com/in/thiagopessoaaraujo/" target="_blank">Linkedin</a>
+            </div>
+            <div class="whatsapp">
+                <img src="assets/images/whatsapp.svg" alt="Logo do whatsapp" loading="lazy">
+                <a href="https://wa.me/5514982306909/" target="_blank">(14) 98230-6909</a>
+            </div>
+        </div>
+        
         <div class="dev">
             <p>Desenvolvido por
                 <a href="https://beacons.ai/thiagopessoaaraujo" target="_blank">Thiago Pessoa Araujo</a>
             </p>
         </div>
     </footer>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/76e9fa9b83.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

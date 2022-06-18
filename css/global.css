@@ -19,6 +19,7 @@ html {
     --font-default: 'Poppins', sans-serif;
     --background-dark: #121212;
     --color-text: #FFFF;
+    --blue: #4169E1;
 }
 
 /* Estilos globais */
@@ -26,7 +27,7 @@ body {
     height: 100vh;
     width: 100%;
 
-    padding: 2rem 3rem 2rem 3rem;
+    padding: 2rem;
 
     background: var(--background-dark);
     color: var(--color-text);
