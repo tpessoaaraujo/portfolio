@@ -25,6 +25,8 @@ header .navbar button {
     background:  #4169E1;
     color: #FFFF;
 
+    margin: 1rem;
+
     border-radius: 8rem;
 
     transition: filter .2s;
@@ -50,8 +52,8 @@ main .container {
 }
 
 main .container .avatar img {
-    width: 40rem;
-    height: 100%;
+    width: 468px;
+    height: 468px;
     border-radius: 50%;
 }
 
