@@ -117,7 +117,13 @@ footer .contacts .github {
     display: flex;
     align-items: center;
     padding-top: 2rem;
+}
 
+footer .contacts .whatsapp img,
+footer .contacts .linkedin img,
+footer .contacts .github img {
+    width: 5rem;
+    height: 5rem;
 }
 
 footer .dev {
