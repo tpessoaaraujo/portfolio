@@ -1,0 +1,67 @@
+header {
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+    padding-bottom: 3rem;
+}
+
+header .navbar  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+}
+
+main .avatar img {
+    width: 50rem;
+    border-radius: 50%;
+}
+
+main .profile {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .profile .about {
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+}
+
+main .profile .contacts {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 3rem;
+}
+
+main .profile .contacts img {
+    margin-right: 1rem;
+}
+
+main .profile .contacts .whatsapp,
+main .profile .contacts .linkedin,
+main .profile .contacts .github {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+
+footer .projects {
+    display: flex;
+    flex-direction: column;
+
+    padding: 3rem 0rem 3rem 0rem;
+}
+
+footer .dev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 3rem 0rem 3rem 0rem;
+}

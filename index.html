@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <!-- Metadados do site -->
     <meta charset="UTF-8">
@@ -9,23 +10,67 @@
     <meta name="description" content="Portfólio pessoal de desenvolvimento front-end">
     <!-- Links internos -->
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="javascript/script.js" defer></script>
-    <!-- Bootstrap 5.2.0 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous" defer></script>
+    <script src="javascript/main.js" defer></script>
     <!-- Título do site -->
     <title>Portfólio - Thiago Pessoa Araujo</title>
 </head>
+
 <body>
     <header>
-
+        <a href="#">
+            <h1>Portfólio</h1>
+        </a>
+        <nav class="navbar">
+            <a href="#about">Sobre</a>
+            <a href="#projects">Contatos</a>
+            <a href="#contacts">Projetos</a>
+        </nav>
     </header>
     <main>
-
+        <div class="avatar">
+            <img src="assets/images/thiago-pessoa-araujo.jpg" alt="Foto do desenvolvedor Thiago" loading="lazy">
+        </div>
+        <div class="profile">
+            <div class="about">
+                <a name="about">
+                    <h2>Sobre</h2>
+                </a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam ex tenetur qui nisi minima! Omnis deleniti temporibus, fuga eum hic architecto facere ipsa eaque modi, veritatis exercitationem pariatur illo soluta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum commodi quaerat praesentium laboriosam deserunt itaque nesciunt, sit rem vitae, dolorem consequuntur id quia ullam nulla, ipsa ut voluptate! Atque, natus.</p>
+            </div>
+            <div class="contacts">
+                <a name="contacts">
+                    <h2>Contatos</h2>
+                </a>
+                <div class="github">
+                    <img src="assets/images/github.svg" alt="Logo do github" loading="lazy">
+                    <a href="https://github.com/tpessoaaraujo" target="_blank">Github</a>
+                </div>
+                <div class="linkedin">
+                    <img src="assets/images/linkedin.svg" alt="Logo do linkedin" loading="lazy">
+                    <a href="https://www.linkedin.com/in/thiagopessoaaraujo/" target="_blank">Linkedin</a>
+                </div>
+                <div class="whatsapp">
+                    <img src="assets/images/whatsapp.svg" alt="Logo do whatsapp" loading="lazy">
+                    <a href="https://wa.me/5514982306909/" target="_blank">(14) 98230-6909</a>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        
+        <div class="projects">
+            <a name="projects">
+                <h2>Projetos</h2>
+            </a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quis beatae quod reiciendis reprehenderit nesciunt eveniet ea, atque quidem porro placeat numquam, libero cumque dicta eaque culpa corporis laudantium sed?</p>
+        </div>
+        <div class="dev">
+            <p>Desenvolvido por
+                <a href="https://beacons.ai/thiagopessoaaraujo" target="_blank">Thiago Pessoa Araujo</a>
+            </p>
+        </div>
     </footer>
 </body>
+
 </html>
