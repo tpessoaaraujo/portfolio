@@ -22,6 +22,10 @@
     color: var(--blue);
 }
 
+.lightMode main .projects .cards .card {
+    box-shadow: .1rem .1rem 1rem black;
+}
+
 .lightMode header .navbar .buttonLight {
     width: 2%;
     color: #000000;

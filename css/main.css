@@ -1,5 +1,6 @@
 h2 {
     margin-bottom: 3rem;
+    text-transform: uppercase;
 }
 
 header {
@@ -99,6 +100,73 @@ main .projects {
     flex-direction: column;
 
     padding: 3rem 0rem 3rem 0rem;
+}
+
+main .projects h2,
+footer .contacts {
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+
+.card a:hover,
+.navbar a:hover,
+.github  a:hover,
+.linkedin a:hover,
+.whatsapp a:hover,
+.dev a:hover {
+    color: var(--blue);
+}
+
+main .projects .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+main .projects .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.5rem;
+
+    box-shadow: .3rem .3rem 1rem black;
+    border-radius: 3rem;
+}
+
+main .projects .cards .card h3 {
+    text-align: center;
+}
+
+main .projects .cards .card .project-image {
+    width: 40rem;
+    height: 100%; 
+    
+    border-radius: .3rem;
+    padding: 1rem 0;
+}
+
+main .projects .cards .card .project-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .projects .cards .card .project-links a:nth-child(2) {
+    margin-left: 4rem;
+}
+
+main .projects .cards .primary-line {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-bottom: 5rem;
+}
+
+main .projects .cards .second-line {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 footer .contacts {
