@@ -119,7 +119,7 @@ footer .contacts {
 
 main .projects .cards {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -130,6 +130,7 @@ main .projects .cards .card {
     justify-content: center;
 
     padding: 1.5rem;
+    margin: 2rem;
 
     box-shadow: .3rem .3rem 1rem black;
     border-radius: 3rem;
@@ -155,18 +156,6 @@ main .projects .cards .card .project-links {
 
 main .projects .cards .card .project-links a:nth-child(2) {
     margin-left: 4rem;
-}
-
-main .projects .cards .primary-line {
-    display: flex;
-    justify-content: space-evenly;
-
-    margin-bottom: 5rem;
-}
-
-main .projects .cards .second-line {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 footer .contacts {
