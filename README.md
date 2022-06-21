@@ -1,8 +1,8 @@
 <h1>Eu sou o Thiago e te convido a vir conhecer um pouquinho do meu trabalho!</h1>
-<h2>Aqui você pode ver meu portfólio completo.</h2>
+<h2>Acesse o portfólio <a href="https://tpessoaaraujo.github.io/portfolio/" target="_blank">clicando aqui</a></h2>
 
 <p>Conheça um pouco sobre mim, as tecnologias que me familiarizo, meus projetos pessoais e contatos.</p>
-<p><p>Acesse o portfólio <a href="https://tpessoaaraujo.github.io/portfolio/" target="_blank">clicando aqui</a>.</p>
+<p>
 
 <h3>Tecnologias utilizadas no desenvolvimento do site de portfólio:</h3>
   <div style="display: inline_block">
