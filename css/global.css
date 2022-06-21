@@ -14,6 +14,21 @@ html {
     font-size: 10px;
 }
 
+/* Barra personalizada */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #191919;
+    border-radius: 20px;
+    border: 2px solid #101010;
+}
+
 /* Variáveis */
 :root {
     --font-default: 'Poppins', sans-serif;
