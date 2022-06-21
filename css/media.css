@@ -86,7 +86,7 @@
     }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1350px) {
+@media only screen and (min-width: 600px) and (max-width: 1350px) {
     header .navbar a {
         font-size: 1.5rem;
         padding: 1rem;
