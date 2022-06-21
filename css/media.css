@@ -14,13 +14,18 @@
         left: 50%;
     }
 
-    header .navbar a, h1 {
+    h1 {
         display: none;
     }
-    
-    header .navbar a:nth-child(5) {
-        display: block;
-        margin-left: -5rem;
+
+    header .navbar a {
+        padding: .5rem;
+    }
+
+    header .navbar button {
+        font-size: 1.5rem;
+        width: 10rem;
+        height: 5rem;
     }
 
     main .container {
