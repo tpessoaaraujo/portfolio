@@ -87,7 +87,19 @@ main .container .profile .technologies .interest {
     border-radius: 1rem;
     border: 2px solid  white;
 
-    padding: 2rem;
+    transition: 1s;
+    margin: .2rem;
+    padding: 1.2rem;
+}
+
+main .container .profile .technologies i {
+    color: white;
+    margin-top: 1rem;
+}
+
+main .container .profile .technologies i:hover {
+    transition: 0.4s;
+    transform: scale(1.2);
 }
 
 main .container .profile .technologies .fa-brands {
@@ -114,6 +126,7 @@ footer .contacts {
 .linkedin a:hover,
 .whatsapp a:hover,
 .dev a:hover {
+    transition: 1s;
     color: var(--blue);
 }
 
