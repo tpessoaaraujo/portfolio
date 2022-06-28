@@ -3,6 +3,10 @@
     color: #000000;
 }
 
+.lightMode header a span {
+    background-image: url('../assets/images/logo_all_black.png');
+}
+
 .lightMode a {
     color: #000000;
 }
@@ -18,8 +22,12 @@
     border: 2px solid  #000000;
 }
 
+.lightMode main .container .profile .technologies i {
+    color: black;
+}
+
 .lightMode main .container .profile .technologies h3 {
-    color: var(--blue);
+    color: black;
 }
 
 .lightMode main .projects .cards .card {

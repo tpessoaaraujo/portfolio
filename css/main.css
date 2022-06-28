@@ -8,6 +8,26 @@ header {
     grid-template-columns: 60% 40%;
 
     padding-bottom: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+header > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header a span {
+    background-image: url('../assets/images/logo_all_white.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8rem;
+    height: 8rem;
+}
+
+header a h1 {
+    padding-left: 3rem;
 }
 
 header .navbar  {
